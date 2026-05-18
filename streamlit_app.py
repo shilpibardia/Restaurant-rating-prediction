@@ -2,7 +2,7 @@ import streamlit as st
 from api_client import get_prediction
 
 import pandas as pd
-df = pd.read_csv("C:\\Users\\sambh\\Desktop\\restaurant_project\\Dataset .csv")
+df = pd.read_csv("Dataset .csv")
 
 currency_options = sorted(df["Currency"].dropna().unique())
 
