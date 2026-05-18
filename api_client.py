@@ -1,6 +1,6 @@
 import requests
 
-API_URL = " https://restaurant-rating-prediction-tnae.onrender.com"
+API_URL = "https://restaurant-rating-prediction-tnae.onrender.com"
 
 
 def get_prediction(data):
